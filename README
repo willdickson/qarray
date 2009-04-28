@@ -1,0 +1,37 @@
+qarray 
+====== 
+
+
+Purpose: This module provides a simple set of functions for dealing with
+arrays of quaternions. It includes functions for multipying, finding the
+conjugate, magnitudes, and inverses of arrays of quaternions. In addition
+utility routines are provided for converitng vector and euler angle arrays
+to arrays of quaternions. 
+
+Functions:
+
+    qarray_multiply       - multiplies two quaternion arrays
+    qarray_conjugate      - returns array of conjugates of quaternion array
+    qarray_mag            - returns array of magnitudes of quaternion array
+    qarray_inverse        - returns array of inverse of quaternion array
+    qarray_from_axangle   - returns quaternion array from array of axis angle 
+                            rotations 
+    qarray_from_vect      - returns quaternion array from array of vectors
+    vect_from_qarray      - returns array of vectors from quaternion array
+    qarray_from_euler     - returns array of quaternins from array of euler
+                            angles
+    euler_from_qarray     - returns array of euler angles from quaternion array
+    rotate_vect_array     - rotates array of vectors by given axis angle 
+                            rotations
+
+Installation
+
+   * Installation instructions can be found in the INSTALL file.  
+     
+Author
+
+   * Will Dickson (wbd@caltech.edu)
+ 
+
+qarray may be freely distributed and modified in accordance with
+the GNU Lesser General Public License.
